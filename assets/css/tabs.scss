@@ -1,0 +1,27 @@
+.mask{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 198;
+    background: rgba(0, 0, 0, .3);
+}
+.tab{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 199;
+    width: 7.5rem;
+    height: 100%;
+    background: lightgreen;
+    .t-btn{
+        margin: 2.5rem auto 0 auto;
+        height: 1.25rem;
+        width: 70%;
+        font-size: .75rem;
+        color: #fff;
+        line-height: 1.25rem;;
+        text-align: center;
+        background: #848077;
+    }
+
+}
