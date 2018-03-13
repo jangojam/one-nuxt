@@ -1,7 +1,9 @@
 <template>
   <section class="container">
     <div class="index">
-      <div class="i-header"></div>
+      <!-- <div class="i-header" @click="showTab">
+        <i class="icon-category icon iconfont  i-cate"></i>
+      </div> -->
       <!-- <Tabs></Tabs> -->
       <div class="i-content">
         <div class="c-item" v-for="item in pageInfo" :key='item.id'>
@@ -19,6 +21,7 @@
 
 <script>
 import Tabs from "~/components/tabs.vue"
+// import '~/assets/iconfont/iconfont.css'
 var axios = require('axios')
 export default {
   data(){

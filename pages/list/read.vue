@@ -1,7 +1,9 @@
 <template>
   <section class="container">
     <div class="index">
-      <div class="i-header"></div>
+      <!-- <div class="i-header">
+        <i class="icon-category icon iconfont  i-cate"></i>
+      </div> -->
       <!-- <Tabs></Tabs> -->
       <div class="i-content">
         <div class="c-item" v-for="item in pageInfo" :key='item.id'>

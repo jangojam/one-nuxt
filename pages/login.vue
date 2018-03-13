@@ -3,7 +3,7 @@
       <div class="login">
           <div class="l-title">One is all</div>
           <i class="l-picture"></i>
-          <nuxt-link to="/list/page"><p class="l-tips">欢迎登录</p></nuxt-link>
+          <nuxt-link to="/list"><p class="l-tips">欢迎登录</p></nuxt-link>
           
       </div>
   </section>

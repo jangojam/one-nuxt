@@ -1,7 +1,9 @@
 <template>
   <section class="container">
     <div class="detail">
-      <div class="d-header"></div>
+      <div class="d-header">
+        <i class="icon-back icon iconfont  i-back" @click="goBack"></i>
+      </div>
       <div class="d-content">
           <p class="c-title">{{pageInfo.hp_title}}</p>
           <p class="c-author" >作者/{{pageInfo.hp_author}}</p>
@@ -40,6 +42,9 @@ export default {
               _this.pageInfo  = res.data.data
             console.log(res.data.data)  
         });
+      },
+      goBack: function() {
+        this.$router.go(-1)
       }
   }
 }
